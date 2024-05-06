@@ -12,7 +12,7 @@ Before running the tool, ensure you have Python and Google Chrome installed on y
 
 1. **Clone the Repository:**
    ```
-      git clone https://github.com/yourusername/nightvision_slack_importer.git
+      git clone https://github.com/jxbt/nightvision_slack_importer.git
       cd nightvision_slack_importer
    ```
 1. **Install Dependencies:**
