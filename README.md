@@ -12,14 +12,14 @@ Before running the tool, ensure you have Python and Google Chrome installed on y
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/yourusername/nightvision_slack_importer.git
-   cd nightvision_slack_importer
+      git clone https://github.com/yourusername/nightvision_slack_importer.git
+      cd nightvision_slack_importer
    ```
 1. **Install Dependencies:**
    ```
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip3 install -r requirements.txt
+      python3 -m venv .venv
+      source .venv/bin/activate
+      pip3 install -r requirements.txt
    ```
 
 ## Usage
@@ -28,10 +28,12 @@ Before running the tool, ensure you have Python and Google Chrome installed on y
    ```
      source .venv/bin/activate
      python3 nightvision_slack_importer.py --sarif <path_to_sarif_file> --token <your_slack_token> --channel <slack_channel_id>
-
    ```
 
-  ### Options:
-    - ```--sarif``` - Path to the SARIF file containing the security analysis results.
-    - ```--token``` - Your Slack API token, which must have permissions to post messages and upload files.
-    - ```--channel``` - The ID of the Slack channel where the report will be posted.
+  ### Flags:
+
+   | Flag            | Description                                                                        | 
+   | --------------- |------------------------------------------------------------------------------------|
+   | -s, --sarif     |  Path to the SARIF file containing the security analysis results.                  |                    
+   | -t, --token    |  Your Slack API token, which must have permissions to post messages and upload files.   |                    
+   | -c, --channel   |  The ID of the Slack channel where the report will be posted.                          |                    
