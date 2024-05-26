@@ -7,8 +7,6 @@
 
 ## Installation
 
-Before running the tool, ensure you have Python and Google Chrome installed on your system. Follow these installation steps:
-
 
 1. **Clone the Repository:**
    ```
@@ -17,6 +15,7 @@ Before running the tool, ensure you have Python and Google Chrome installed on y
    ```
 1. **Install Dependencies:**
    ```
+      chmod +x install.sh && sudo ./install.sh
       python3 -m venv .venv
       source .venv/bin/activate
       pip3 install -r requirements.txt
